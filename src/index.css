@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    scrollbar-width: thin; /* o scrollbar-width: none; */
+  }
+  
+  /* Estilizar la barra de desplazamiento */
+  ::-webkit-scrollbar-thumb {
+    background-color: #cbd5e1;
+    border-radius: 50px;
+  }
